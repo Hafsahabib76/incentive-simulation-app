@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "SiemensSlab";
+    font-weight: bold;
+    src: url("./assets/fonts/SiemensSlab-Bold.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "SiemensSlab";
+    font-style: normal;
+    src: url("./assets/fonts/SiemensSlab-Roman.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "SiemensSans";
+    font-weight: bold;
+    src: url("./assets/fonts/SiemensSans-Bold.ttf?avcggw") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "SiemensSans";
+    font-weight: 900;
+    src: url("./assets/fonts/SiemensSans-Black.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "SiemensSans";
+    font-style: italic;
+    src: url("./assets/fonts/SiemensSans-Italic.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "SiemensSans";
+    font-style: normal;
+    src: url("./assets/fonts/SiemensSans-Roman.ttf?avcggw") format("truetype");
+  }
+
+  /* General styles */
+body {
+  margin: 0;
+  font-family: 'Siemens Sans', sans-serif;
+  /* overflow: hidden; */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+font-size: 12px; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff; 
+  padding: 2px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+  width: 80px;
+  height: 50px;
+}
+
+.app-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000028;
+}
+
+
+
+.steps {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.steps p {
+  position: relative;
+  padding-left: 1.3vw; /* Adjust the spacing as needed */
+  cursor: pointer;
+}
+
+.steps p:before {
+  content: '\2B9E'; /* Unicode for a right arrow */
+  position: absolute;
+  left: 0;
+  color: #007993;
+}
+
+.selectedMpg {
+  background-color: #D0F3F3;
+}
+
+.selected {
+  background-color: #F2F2F2; /* Change this to your desired border color */
+  font-weight: 500;
+}
+
+.button {
+  border: 1px solid #009999;
+  background-color: #fff;
+  color: #009999;
+  border-radius: 0;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.button:hover {
+  background-color: #009999;
+  color: #ffffff;
+}
+
+/* styles for the confirmation message */
+.confirmation-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.confirmation-message-content {
+  position: relative;
+  z-index: 1;
+}
+
+.heading {
+  color: #EF0137;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.confirmation-message p {
+  text-align: center;
+}
+
+.confirmation-message .button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.delete-btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 4px 8px;
+  background-color: #EF0137;
+  color: #fff;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  right: 50%;
+}
+
+.cancel-btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 4px 8px;
+  background-color: #00AF8E;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+}
+.required-asterisk {
+  color: red;
+  margin-left: 2px;
+}

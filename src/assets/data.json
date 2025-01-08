@@ -1,0 +1,106 @@
+[
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 1454.11,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 1153.01,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 23.24,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 2347.61,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 691.56,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 13,
+    "priceGroup": "37F",
+    "listPricePerUnit": 506.17,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 719.98,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 304.47,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 1454.11,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 1,
+    "priceGroup": "37F",
+    "listPricePerUnit": 786.85,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 11,
+    "priceGroup": "37F",
+    "listPricePerUnit": 744.84,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 2,
+    "priceGroup": "37F",
+    "listPricePerUnit": 1063.07,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  },
+  {
+    "quantity": 3,
+    "priceGroup": "37F",
+    "listPricePerUnit": 1651.1,
+    "discountRecommendation": 44.9,
+    "meanDiscount": 0.469675934,
+    "standardDeviation": 0.075867042
+  }
+]

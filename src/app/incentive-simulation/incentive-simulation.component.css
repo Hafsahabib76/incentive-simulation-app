@@ -1,0 +1,43 @@
+.sections-container {
+    display: flex; /* Use flexbox for layout */
+    gap: 20px; /* Space between sections */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+  }
+  
+  .section {
+    flex: 1; /* Allow each section to grow equally */
+    min-width: 200px; /* Set a minimum width for each section */
+    padding: 15px;
+    border: 1px solid #ccc; /* Border around each section */
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: #fff; /* White background for sections */
+  }
+  
+  .discount {
+    display: flex; /* Align discounts in a column */
+    flex-direction: column; /* Stack discounts vertically */
+    gap: 10px; /* Space between discount items */
+  }
+  
+  .top-discount,
+  .target-discount,
+  .floor-discount {
+    padding: 10px;
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .top-discount {
+    background-color: #E2EFDA; /* Light green background */
+  }
+  
+  .target-discount {
+    background-color: #FFF2CC; /* Light yellow background */
+  }
+  
+  .floor-discount {
+    background-color: #FCE4D6; /* Light red background */
+  }
+  
+  .input {
+    width: 20%;
+  }

@@ -1,0 +1,37 @@
+<!-- Top Header with Siemens Logo and Application Name -->
+<div class="top-header">
+  <img src="assets/siemens-logo.png" alt="Siemens Logo" class="company-logo">
+
+  <h1 class="app-title">{{title}}</h1>
+</div>
+
+<div class="app-container">
+  <!-- Tab Header Container including priceRecommender, dashboard and incentiveSimulation -->
+  <div class="tabs-container">
+    <div class="tab" [class.active]="selectedTab === 'priceRecommender'" (click)="selectTab('priceRecommender')">
+      Price Recommender
+    </div>
+    <div class="tab" [class.active]="selectedTab === 'dashboard'" (click)="selectTab('dashboard')">
+      Dashboard
+    </div>
+    <div class="tab" [class.active]="selectedTab === 'incentiveSimulation'" (click)="selectTab('incentiveSimulation')">
+      Incentive Simulation
+    </div>
+  </div>
+
+  <!-- Tab Content Container including priceRecommender, dashboard and incentiveSimulation -->
+  <div class="tab-content">
+    <div *ngIf="selectedTab === 'priceRecommender'">
+      <!-- Content for Price Recommender -->
+      <p>Price Recommender Content goes here...</p>
+    </div>
+    <div *ngIf="selectedTab === 'dashboard'">
+      <!-- Content for Dashboard -->
+      <p>Dashboard Content goes here...</p>
+    </div>
+    <div *ngIf="selectedTab === 'incentiveSimulation'">
+      <!-- Content for Incentive Simulation -->
+      <app-incentive-simulation></app-incentive-simulation>
+    </div>
+  </div>
+</div>
